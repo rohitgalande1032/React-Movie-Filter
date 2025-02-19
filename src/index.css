@@ -1,0 +1,44 @@
+#main {
+    width: 80%;
+    margin: auto;
+}
+
+.genre-filter{
+    min-height: 100px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.genre_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: rgb(237, 237, 237);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid lightgrey;
+}
+tr>th {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+tr>td {
+    padding: 10px; 
+}
